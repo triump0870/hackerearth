@@ -1,5 +1,6 @@
 from collections import namedtuple
 from sys import stdin
+import astar
 
 name = namedtuple("name",["char","dy","dx"])
 
@@ -79,7 +80,7 @@ def main():
 		ey,ex = maze.find_end()
 		
 		print("solving...")
-		if maze.solve(sy,sx,ey,ex):
+		if astar.astar(maze,0,3):
 			print(maze)
 		else:
 			print ("  no solution found")
