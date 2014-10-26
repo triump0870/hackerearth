@@ -11,7 +11,6 @@ curses.halfdelay(1)
 
 
 bg_frame = 'QlpoOTFBWSZTWbQ7eg8AAMr7gH/doChY84AQAATAAAAFMAF5QmDQEaEj00I0AyETaJqA9RoAGgCQkRoQjJoYEycRcmNn8JgkdWl1b9yeX1arHCrZQdpdJIGxJB6aEgzYB7ruc8VmVYsQ9WxWrvWPhlxxEqvBsyvw4iTxZwwNiD5QrmDIxRGKLWGUbmaaXxlps9c8t402JqzLay7FleFPkDSzMQg1thxMocVSOoYGvY3DYqWlms3MrxqgwBwjcJ0rQdy4RfmROTTYlz1Y8fJQ07dGkQ4F/F5dtrSQRxtXR3e4t3o338YtLd9vNYnGs754BlgKMk+bGH9JuYnrtylI7gS0NTGA0IyZmt+u6oiSqmdA1mEhp5IqGAYExHK0HIQaAsXtcyUig5VsziVGAHrbKalM/riEKj+SlgWsVJAy5oYEzxjJDNHH4u5IpwoSFodvQeA='.decode('base64').decode('bz2')
-print bg_frame
 main_dec = []
 minor_decs = []
 for y, bg_line in enumerate(bg_frame.split('\n')):

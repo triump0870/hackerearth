@@ -1,0 +1,4 @@
+s = raw_input().split()
+print s
+print s[0]
+print s[1]

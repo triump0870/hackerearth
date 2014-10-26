@@ -30,10 +30,15 @@ class Cell:
         return cmp(self.D, other.D)
     
 def LoadMaze():
-    t = input()
+    data = (line for line in stdin.read().splitlines())
+    t = int(next(data))
     matrix = []
+    rnum = 0
     for i in range(t):
-        matrix.append(list(raw_input()))
+        cnum = 0
+        row = []
+        for char in next(data)
+        matrix.append(list(()))
     return Maze(matrix)
 
 

@@ -1,3 +1,4 @@
+import time
 MOD = 1000000007
 array = []
 def calculate(n):
@@ -14,5 +15,8 @@ t = input()
 T = t if 1<=t<=10 else exit(1)
 for i in xrange(T):
 	n = input()
+	start = time.clock()
 	N = n if 1<=n<=100000 else exit(1)
 	calculate(N)
+	elp = time.clock()-start
+	print "{0:.10f}".format(elp)
